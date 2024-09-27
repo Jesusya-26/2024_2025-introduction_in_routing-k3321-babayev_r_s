@@ -24,7 +24,7 @@
 * Также вам необходимо создать 2 DHCP сервера на центральном роутере в ранее созданных VLAN-ах для раздачи IP адресов в них. `PC1` и `PC2` должны получить по 1 IP адресу из своих подсетей.
 * Настроить имена устройств, сменить логины и пароли.
 
-![Схема из задания](/images/3tiernetwork.png)
+![Схема из задания](images/3tiernetwork.png)
 
 ## Описание работы
 
@@ -127,9 +127,9 @@ add interface=vlan10_e3 bridge=br_v10
 add interface=vlan10_e4 bridge=br_v10
 add interface=vlan20_e3 bridge=br_v20
 add interface=vlan20_e5 bridge=br_v20
-/ip address
-add address=10.10.10.3/24 interface=br_v10
-add address=10.10.20.3/24 interface=br_v20
+/ip dhcp-client
+add disabled=no interface=br_v20
+add disabled=no interface=br_v10
 /user add name=newadmin password=newadmin group=full
 /system identity set name=SW1-Switch
 ```
@@ -148,8 +148,8 @@ add name=br_v10
 /interface bridge port
 add interface=vlan10_e3 bridge=br_v10
 add interface=vlan10_e4 bridge=br_v10
-/ip address
-add address=10.10.10.4/24 interface=br_v10
+/ip dhcp-client
+add disabled=no interface=br_v10
 /user add name=newadmin password=newadmin group=full
 /system identity set name=SW2-Switch
 ```
