@@ -1,2 +1,3 @@
-*.bak
-clab-la1/
+.networklab.clab.yaml.bak
+clab-lab1/
+configs/*.save
