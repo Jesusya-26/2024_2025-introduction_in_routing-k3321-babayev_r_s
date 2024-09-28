@@ -9,7 +9,7 @@
 * **Author:** Babayev Ruslan Sagibovich
 * **Lab:** Lab1
 * **Date of create:** 25.09.2023
-* **Date of finished::** 28.09.2023
+* **Date of finished:** 28.09.2023
 
 ## Задание
 
