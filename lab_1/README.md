@@ -1,16 +1,15 @@
 # Отчет по лабораторной работе №1
 
 ## Университет
-[ITMO University](https://itmo.ru/ru/)
-
-* **Факультет:** [FICT](https://fict.itmo.ru)
-* **Курс:** [Введение в маршрутизацию](https://github.com/itmo-ict-faculty/introduction-in-routing)
-* **Год:** 2024/2025
-* **Группа:** K3321
-* **Автор:** Бабаев Руслан Сагибович
-* **Лабораторная работа:** Lab1
-* **Дата создания:** 25.09.2023
-* **Дата завершения:** 29.09.2023
+* **University:** [ITMO University](https://itmo.ru/ru/)
+* **Faculty:** [FICT](https://fict.itmo.ru)
+* **Course:** [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)
+* **Year:** 2024/2025
+* **Group:** K3321
+* **Author:** Babayev Ruslan Sagibovich
+* **Lab:** Lab1
+* **Date of create:** 25.09.2023
+* **Date of finished:** 28.09.2023
 
 ## Задание
 
