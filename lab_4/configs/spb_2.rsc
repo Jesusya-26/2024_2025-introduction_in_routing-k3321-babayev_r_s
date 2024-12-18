@@ -37,7 +37,7 @@ remove [find routing-mark=VRF_DEVOPS]
 /routing bgp instance vrf 
 remove [find routing-mark=VRF_DEVOPS]
 /interface bridge
-add name=vpls protocol-mode=none
+add name=vpls
 /interface bridge port
 add bridge=vpls interface=ether4
 /interface vpls bgp-vpls
